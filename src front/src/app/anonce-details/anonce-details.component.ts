@@ -7,6 +7,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './anonce-details.component.html',
   styleUrls: ['./anonce-details.component.css']
 })
+  /*details component*/
 export class AnonceDetailsComponent {
 
   public annonceDetails : any ;
