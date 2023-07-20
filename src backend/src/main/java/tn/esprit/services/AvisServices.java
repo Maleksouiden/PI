@@ -27,16 +27,17 @@ public class AvisServices {
         AvisRepo.save(avis) ;
         return "avis ajouter" ;
     }
-
+    
+     public String deleteAvis(int id){
+        AvisRepo.deleteById(id);
+        return "avis Supprimer" ;
+    }
+    
     public String updateAvis(int id, Avis avis) {
         AvisRepo.save(avis) ;
         return "avis Modifier" ;
     }
 
 
-    public String deleteAvis(int id){
-        AvisRepo.deleteById(id);
-        return "avis Supprimer" ;
-    }
 }
-/*update*/
+
